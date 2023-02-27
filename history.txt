@@ -1,0 +1,126 @@
+    1  sudo apt-get install python3-pip -y
+    2  exit
+    3  sudo apt-get update
+    4  sudo apt-get install emacs -y
+    5  sudo apt-get install vim
+    6  emacs test.txt
+    7  top
+    8  htop
+    9  top
+   10  htop
+   11  sudo apt-get install openssh-server
+   12  sudo service ssh restart
+   13  ssh localhost
+   14  ssh-keygen -t rsa
+   15  sudo cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   16  ssh localhost
+   17  sudo apt-get install python3-pip -y
+   18  pip3 install numpy
+   19  sudo pip3 install --upgrade pip
+   20  sudo -H pip3 install --upgrade pip
+   21  sudo apt-get install git
+   22  git clone https://github.com/hrmoradi/ClassTestGit
+   23  ls
+   24  cd ClassTestGit/
+   25  ls
+   26  cat test.py
+   27  vim test.txt
+   28  ls
+   29  vim test.txt
+   30  python3 test.py test.txt
+   31  python3 test.py first second third
+   32  clear
+   33  python3 test.py test.txt > output.txt
+   34  cat output.txt
+   35  python3 test.py > output.txt
+   36  cat output.txt
+   37  python3 test.py > output.txt 2>err.txt
+   38  cat err.txt
+   39  python3 test.py &> output.txt
+   40  cat output.txt
+   41  python3 test.py test.txt &>> output.txt
+   42  export filename=text.txt
+   43  export filename=test.txt
+   44  env
+   45  env | grep filename
+   46  echo $ filename
+   47  python3 test.py $filename
+   48  echo $HOME
+   49  echo $PWD
+   50  pwd
+   51  echo $PATH
+   52  vim ~/.bashrc
+   53  source ~/.bashrc
+   54  vim ~/.bashrc
+   55  source ~/.bashrc
+   56  vim ~/.bashrc
+   57  source ~/.bashrc
+   58  vim ~/.bashrc
+   59  source ~/.bashrc
+   60  env | grep test
+   61  dpkg -list
+   62  dpkg --list
+   63  dpkg --list | grep python
+   64  df -h
+   65  du -d 1 -c -h
+   66  cd
+   67  du -d 1 -c -h | grep -v "denied"
+   68  history
+   69  history > history.text
+   70  git init
+   71  git remote add origin https://github.com/anshulmax/BDS-761.git
+   72  git pull origin master
+   73  git pull origin main
+   74  cat history.txt
+   75  git pull origin main
+   76  git push -u origin main
+   77  git status
+   78  ls
+   79  ls -a
+   80  rm -r.git
+   81  rm-rf.git
+   82  rm -rf .git
+   83  ls -a
+   84  git remote add origin https://github.com/anshulmax/BDS-761/
+   85  rm -rf .git
+   86  ls -a | grep git
+   87  git remote add origin https://github.com/anshulmax/BDS-761/
+   88  git init
+   89  git remote add origin https://github.com/anshulmax/BDS-761/
+   90  git pull origin main
+   91  ls
+   92  ls -a
+   93  rm -rf ./.git
+   94  ls -a
+   95  ls
+   96  mkdir gitTest
+   97  cd gitTest/
+   98  ls
+   99  git init
+  100  git remote add origin https://github.com/anshulmax/bds761/
+  101  git pull origin main
+  102  ls
+  103  git config --global user.name 'anshulmax'
+  104  git config --global user.email  'anshulmax1@gmail.com'
+  105  git add .
+  106  git add *
+  107  git add *.py
+  108  git status 
+  109  git branch -- list
+  110  git branch --list
+  111  git checkout main
+  112  ls
+  113  git status
+  114  git branch --list
+  115  git branch --delete list
+  116  git branch --delete master
+  117  git status
+  118  git branch --list
+  119  git commit -m "update"
+  120  git push origin main
+  121  ,ls
+  122  ls
+  123  git branch --list
+  124  ls 
+  125  history
+  126  history > history.txt
